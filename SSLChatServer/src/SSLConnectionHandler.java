@@ -1,4 +1,3 @@
-
 import java.io.IOException;
 import java.net.Socket;
 import java.security.Principal;
@@ -30,9 +29,3 @@ public class SSLConnectionHandler extends ConnectionHandler {
 		}
 	}
 }
-
-/*
- * Location:
- * C:\work\exprog\jchat\JChatSSL\sslchatserver.jar!\SSLConnectionHandler.class
- * Java compiler version: 7 (51.0) JD-Core Version: 1.1.3
- */

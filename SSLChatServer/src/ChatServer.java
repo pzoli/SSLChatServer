@@ -47,7 +47,6 @@ public class ChatServer implements IMsg {
 			printHelp(getCommandLineOptions());
 		}
 	}
-	/*     */
 
 	ChatServer(String host, int port, String serverJks, String trustJks, String serverPwd, String trustPwd) {
 		try {

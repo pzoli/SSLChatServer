@@ -1,11 +1,9 @@
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.io.PrintWriter;
+import java.net.Socket;
 
-/*    */ import java.io.BufferedReader;
-/*    */ import java.io.InputStreamReader;
-/*    */ import java.io.PrintWriter;
-/*    */ import java.net.Socket;
-
-/*    */
-/*    */ public class ConnectionHandler extends Thread {
+public class ConnectionHandler extends Thread {
 	protected BufferedReader input;
 	protected PrintWriter output;
 	protected Socket cs;
